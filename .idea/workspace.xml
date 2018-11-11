@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a7f43b2-41e5-4999-ba45-0a4f3c2f6afd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrices/IdenticalMatrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrices/SpiralPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrices/Transpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/matrices/MaxZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/random_shit/PythgoreamTriplets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrices/IdenticalMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/matrices/IdenticalMatrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrices/SpiralPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/matrices/SpiralPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrices/Transpose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/matrices/Transpose.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +32,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2" />
-          <entry key="java" value="11849" />
-          <entry key="txt" value="44" />
+          <entry key="java" value="12647" />
+          <entry key="txt" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="11849" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="JAVA" value="12647" />
+          <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
     </session>
@@ -102,28 +103,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/matrices/IdenticalMatrices.java">
+        <entry file="file://$PROJECT_DIR$/src/com/matrices/IdenticalMatrices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="153">
               <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/matrices/Transpose.java">
+        <entry file="file://$PROJECT_DIR$/src/com/matrices/Transpose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state relative-caret-position="-138">
+              <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/matrices/SpiralPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/matrices/MaxZeros.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/matrices/SpiralPrint.java">
+        <entry file="file://$PROJECT_DIR$/src/com/random_shit/PythgoreamTriplets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="83">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -156,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/com/numbers/CheckPrime.java" />
         <option value="$PROJECT_DIR$/src/com/random_shit/HelloWithoutSemiColon.java" />
         <option value="$PROJECT_DIR$/src/com/numbers/MultiplicationTable.java" />
-        <option value="$PROJECT_DIR$/src/com/numbers/SwapTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/numbers/FindPower.java" />
         <option value="$PROJECT_DIR$/src/com/numbers/PerfectNumber.java" />
         <option value="$PROJECT_DIR$/src/com/numbers/ArmstrongNumber.java" />
@@ -173,7 +191,12 @@
         <option value="$PROJECT_DIR$/src/matrices/IdenticalMetrices.java" />
         <option value="$PROJECT_DIR$/src/matrices/IdenticalMatrices.java" />
         <option value="$PROJECT_DIR$/src/matrices/Transpose.java" />
+        <option value="$PROJECT_DIR$/src/com/random_shit/matrices/SpiralPrint.java" />
         <option value="$PROJECT_DIR$/src/matrices/SpiralPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/numbers/SwapTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/matrices/SpiralPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/matrices/MaxZeros.java" />
+        <option value="$PROJECT_DIR$/src/com/random_shit/PythgoreamTriplets.java" />
       </list>
     </option>
   </component>
@@ -215,19 +238,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Coding practice for placements" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding practice for placements" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="numbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding practice for placements" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding practice for placements" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="matrices" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,6 +247,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,9 +265,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpiralPrint">
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.numbers.GCD" />
+  <component name="RunManager" selected="Application.PythgoreamTriplets">
+    <configuration name="MaxZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.matrices.MaxZeros" />
+      <module name="Coding practice for placements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PythgoreamTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.random_shit.PythgoreamTriplets" />
+      <module name="Coding practice for placements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.random_shit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralPrint (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.matrices.SpiralPrint" />
+      <module name="Coding practice for placements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.numbers.SwapTwoNumbers" />
       <module name="Coding practice for placements" />
       <extension name="coverage">
         <pattern>
@@ -264,51 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdenticalMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrices.IdenticalMatrices" />
+    <configuration name="Transpose (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.matrices.Transpose" />
       <module name="Coding practice for placements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.numbers.LCM" />
-      <module name="Coding practice for placements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiralPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrices.SpiralPrint" />
-      <module name="Coding practice for placements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="matrices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Transpose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrices.Transpose" />
-      <module name="Coding practice for placements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="matrices.*" />
+          <option name="PATTERN" value="com.matrices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,19 +332,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GCD" />
-      <item itemvalue="Application.LCM" />
-      <item itemvalue="Application.IdenticalMatrices" />
-      <item itemvalue="Application.Transpose" />
-      <item itemvalue="Application.SpiralPrint" />
+      <item itemvalue="Application.Transpose (1)" />
+      <item itemvalue="Application.SwapTwoNumbers" />
+      <item itemvalue="Application.SpiralPrint (1)" />
+      <item itemvalue="Application.MaxZeros" />
+      <item itemvalue="Application.PythgoreamTriplets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpiralPrint" />
-        <item itemvalue="Application.Transpose" />
-        <item itemvalue="Application.IdenticalMatrices" />
-        <item itemvalue="Application.LCM" />
-        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.PythgoreamTriplets" />
+        <item itemvalue="Application.MaxZeros" />
+        <item itemvalue="Application.SpiralPrint (1)" />
+        <item itemvalue="Application.SwapTwoNumbers" />
+        <item itemvalue="Application.Transpose (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541919219048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added 3 matrix programs">
+      <created>1541931602302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541931602302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +415,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="added LCM and GCD programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LCM and GCD programs" />
+    <MESSAGE value="added 3 matrix programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 3 matrix programs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -487,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/numbers/SwapTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -592,24 +608,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrices/IdenticalMatrices.java">
+    <entry file="file://$PROJECT_DIR$/src/com/numbers/SwapTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/matrices/Transpose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/matrices/IdenticalMatrices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrices/Transpose.java">
+    <entry file="file://$PROJECT_DIR$/src/com/matrices/SpiralPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="287">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrices/SpiralPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/com/matrices/MaxZeros.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="185">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/random_shit/PythgoreamTriplets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
         </state>
       </provider>
     </entry>

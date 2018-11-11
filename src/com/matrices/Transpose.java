@@ -1,4 +1,4 @@
-package matrices;
+package com.matrices;
 
 public class Transpose {
     public static void main(String[] args) {
