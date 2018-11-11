@@ -12,7 +12,7 @@ because,
        b^2 = 4 * m^2 * n^2
        c^2 = m^4 + n^4 + 2* m^2 * n^2
        */
-public class PythgoreamTriplets {
+public class PythgoreanTriplets {
     public static void main(String[] args) {
         int n = 20;
         printTriplets(n);
