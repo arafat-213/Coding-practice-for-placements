@@ -7,23 +7,27 @@ public class SimplifyExpression {
         char temp = ' ';
         int k;
         // output should be X+Y-A-B
-        for (int i = 0; i < exp.length(); i++) {
+        for (int i = 1; i < exp.length(); i++) {
             char ch = exp.charAt(i);
-            if (ch == '-' && exp.charAt(i + 1) == '(') {
+            if (ch == '(' && exp.charAt(i - 1) == '-') {
                 k = i;
                 while (temp != ')') {
-                    temp = exp.charAt(k);
-                    k++;
-                    if (k > exp.length() - 2) {
+                    if (k >= exp.length()) {
                         System.out.print("Invalid syntax");
                         break;
 //                        System.exit(0);
                     }
+                    temp = exp.charAt(k);
+                    k++;
+                    System.out.println(k);
                 }
-                for (int j = i; j < temp - 1; j++) {
+                // System.out.println(k);
+                for (int j = i; j < k; j++) {
+                    ch = exp.charAt(j);
                     if (exp.charAt(j) == '+') {
-                        result += '-';
+                        ch = '-';
                     }
+                    result += ch;
                 }
             } else if (ch == '(' || ch == ')') {
                 // do nothingg

@@ -4,14 +4,25 @@ public class ParanthesesCheck {
     static char[] stack = new char[100];
     static int top = -1;
     static int size = 100;
+    static boolean isValid = true;
+    static char temp;
 
     public static void main(String[] args) {
-        String str = "((())))()(())";
+        String str = "(){[]}{}(())";
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == '(')
-                push('(');
-            else if (str.charAt(i) == ')')
-                pop();
+            char ch = str.charAt(i);
+            if (ch == '(' || ch == '{' || ch == '[')
+                push(ch);
+            else if (ch == ')' || ch == '}' || ch == ']') {
+                temp = pop();
+                System.out.println(temp);
+                if (ch == ')' && (temp == '{' || temp == '['))
+                    isValid = false;
+                else if (ch == '}' && (temp == '(' || temp == '['))
+                    isValid = false;
+                else if (ch == ']' && (temp == '(' || temp == '{'))
+                    isValid = false;
+            }
         }
         checkTop();
     }
@@ -21,17 +32,18 @@ public class ParanthesesCheck {
             stack[++top] = ch;
     }
 
-    static void pop() {
+    static char pop() {
         if (top > -1)
-            top--;
+            return stack[top--];
         else {
             System.out.println("Errr! Invalid");
             System.exit(0);
         }
+        return '0';
     }
 
     static void checkTop() {
-        if (top == -1)
+        if (top == -1 && isValid)
             System.out.println("Valid");
         else
             System.out.println("Errr! Invalid");
