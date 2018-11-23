@@ -15,7 +15,7 @@ public class IdenticalMatrices {
             for (int j = 0; j < array1[i].length; j++) {
                 if (array1[i].length != array2[i].length)
                     return false;
-                if (array1[i][j] != array1[i][j])
+                if (array1[i][j] != array2[i][j])
                     isIdentical = false;
             }
         }
